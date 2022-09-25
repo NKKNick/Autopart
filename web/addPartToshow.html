@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>add new food</title> <!-- Lab 4 -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h2>เพิ่มอาหาร</h2>
+        <form action="Addshowautopart">
+            รหัสสินค้า: <input type="text" name="apartID" ><br/>
+            <select name='apartType' id='apartType'>
+                <option value='อะไหล่แท้'>อะไหล่แท้</option>
+                <option value='อะไหล่เทียบ'>อะไหล่เทียบ</option>
+                <option value='อะไหล่เทียม'>อะไหล่เทียม</option>
+                <option value='อะไหล่ปลอม'>อะไหล่ปลอม</option>
+            </select>
+            <br>สินค้า<br>
+            <input type="checkbox" id="product" name="product" value="ลูกสูบเกียรต์">ลูกสูบเกียรต์<br/>
+            <input type="checkbox" id="product" name ="product" value="ไส้กรองเกียรต์">ไส้กรองเกียรต์<br/>
+            <input type="checkbox" id="product" name ="product" value="ฟังเฟือง">ฟันเฟือง<br/>
+            <input type="checkbox" id="product" name ="product" value="แบตเตอรี่">แบตเตอรี่<br/>
+            ราคา:
+            <input type="text" name="price"><br/>
+            <br>
+            <input type="submit" value="เพิ่มอาหาร"><br/>
+        </form>
+    </body>
+</html>
